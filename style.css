@@ -20,11 +20,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .qrPane {
-    /* margin-top: 70px; */
     height: 500px;
     width: 320px;
     background: white;
@@ -32,10 +30,6 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* margin-top: auto; */
-    /* margin-bottom: auto; */
-    /* display: flex; */
-    /* justify-content: center; */
 }
 
 .qrCode {
