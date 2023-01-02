@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.qrPaneContainer {
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.qrPane {
+    /* margin-top: 70px; */
+    height: 500px;
+    width: 320px;
+    background: white;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.qrCode {
+    height: 290px;
+    width: 290px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.textContent {
+    margin: 15px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: .9em;
+    color:hsl(220, 15%, 55%);
+}
+
+.header {
+    font-weight: 700;
+    font-size: large;
+    color: black;
+}
+
+.attribution {
+    position: relative;
+}
